@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Basic03
-  m_Shader: {fileID: 4800000, guid: c84fdd27544cc384f9ca266883391870, type: 3}
+  m_Name: Light
+  m_Shader: {fileID: 4800000, guid: b375f92b9861cc44497e4d24b330156c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,20 +23,24 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _TextureSample0:
+    - _Clouds:
         m_Texture: {fileID: 2800000, guid: 1bbd9e4dbb3685248809a89dc58a01fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: a1ad534ff6743c64da867f45c3bdbfae, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
-        m_Texture: {fileID: 2800000, guid: 1bbd9e4dbb3685248809a89dc58a01fe, type: 3}
+        m_Texture: {fileID: 2800000, guid: 612e5f2abed7c0e4a931fb8344b1c173, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _c:
-        m_Texture: {fileID: 2800000, guid: 6779dd3b17badc743ae97d117caaa890, type: 3}
+    - _a:
+        m_Texture: {fileID: 2800000, guid: 3e94aeddf6175824399a04749033bafc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _d:
-        m_Texture: {fileID: 2800000, guid: 5a97b28aa21def443923797afd7da7dd, type: 3}
+    - _fff:
+        m_Texture: {fileID: 2800000, guid: a1ad534ff6743c64da867f45c3bdbfae, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -45,7 +49,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Float0: 45
+    - _Final_Intence: 2.73
     - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []
